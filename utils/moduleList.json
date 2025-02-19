@@ -1,0 +1,54 @@
+{
+    "category":{
+        "control":[
+            "h265_build_reference_border",
+            "h265_main_ctrl/exec_end",
+            "h265_main_ctrl/exec_str",
+            "h265_main_ctrl/init_ctu",
+            "h265_main_ctrl/scheduler",
+            "h265_rec_coeff_buffer/buffer_pull",
+            "h265_rec_coeff_buffer/buffer_push",
+            "h265_indexer"
+        ],
+        "intra_prediction":[
+            "h265_ip_ctrl",
+            "h265_ip_get_planar",
+            "h265_ip_get_dc",
+            "h265_ip_get_ang_zero",
+            "h265_ip_get_ang_neg/modes_11_25",
+            "h265_ip_get_ang_neg/modes_12_24",
+            "h265_ip_get_ang_neg/modes_13_23",
+            "h265_ip_get_ang_neg/modes_14_22",
+            "h265_ip_get_ang_neg/modes_15_21",
+            "h265_ip_get_ang_neg/modes_16_20",
+            "h265_ip_get_ang_neg/modes_17_19",
+            "h265_ip_get_ang_neg/modes_18_18",
+            "h265_ip_get_ang_pos",
+            "h265_sad",
+            "h265_pred_buffer/pred_buffer_pull",
+            "h265_pred_buffer/pred_buffer_push"         
+        ],
+        "inter_prediction":[
+
+        ],
+        "transform":[
+            "h265_coeff_cost",
+            "h265_quant",
+            "h265_reconstruct",
+            "h265_t2d",
+	    "h265_it2d"
+        ],
+        
+        "cabac":[
+            "kvz_encode_coding_tree/kvz_encode_coding_tree_hier",
+            "kvz_encode_coding_tree/mux_channel",
+            "encode_intra_coding_unit_and_transform_coeff",            
+            "binarization/coeff_group_arranging",
+            "binarization/coeff_group_scanning",
+            "binarization/coeff_binarization",
+            "binarization/arbiter",
+            "binary_coding/bin_arbiter",
+            "binary_coding/bin_coding"            
+        ]
+    }
+}
